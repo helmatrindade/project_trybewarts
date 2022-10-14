@@ -23,4 +23,5 @@ main {
   display: flex;
   width: 675px;
   background-color: black;
+  flex-direction: column;
 }
