@@ -22,10 +22,19 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  background-color: black;
   flex-direction: column;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.name-lastname {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.email-house {
+  display: flex;
 }
