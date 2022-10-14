@@ -1,12 +1,11 @@
-.header{
-    background-color: rgb(50, 167, 145);
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    
+.header {
+  background-color: rgb(50, 167, 145);
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 
-.trybewarts-login{
-    display: flex;
-    align-self: center;
+.trybewarts-login {
+  display: flex;
+  align-self: center;
 }
