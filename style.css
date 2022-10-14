@@ -9,3 +9,8 @@
   display: flex;
   align-self: center;
 }
+
+#trybewarts-header-title {
+    display: flex;
+  align-items: center;
+}
