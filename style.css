@@ -44,3 +44,7 @@ main {
 .family-input {
   display: grid;
 }
+
+#submit-btn:disabled {
+  background-color: rgba(249, 248, 251, 0.463);
+}

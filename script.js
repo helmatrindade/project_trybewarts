@@ -9,16 +9,20 @@ function validaFormulario(event) {
   } else {
     alert('Email ou senha inválidos.');
   }
-};
+}
 botao.addEventListener('click', validaFormulario);
 
 const send = document.getElementById('submit-btn');
 const agreement = document.getElementById('agreement');
-agreement.disabled = true;
+send.disabled = true;
+send.style.opacity = '50%';
 
-agreement.addEventListener('click', function sendButton () {
- if(agreement.checked === true) {
-  agreement.disabled = false;
+agreement.addEventListener('click', () => {
+  if (send.disabled === true) {
+    send.disabled = false;
+    send.style.opacity = '100%';
+  } else {
+    send.disabled = true;
+    send.style.opacity = '50%';
   }
 });
-
